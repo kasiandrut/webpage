@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Contact Me</title>
+</head>
+<body>
+  <h1>Katarzyna Andrusieczko</h1>
+  <p>Phone number: 123456789</p>
+  <p>Adress: 35 Alabama Street</p>
+  <p>E-mail: myemail@gmail.com</p>
+  <br>
+  <!-- Form -->
+  <!-- 'Action' attribute tells you what will happen when you click 'Submit'-->
+  <form action="mailto:kasia.andrusieczko@gmail.com" method="post" enctype="text/plain">
+    <!-- Form border -->
+    <fieldset>
+      <!-- Title of form border -->
+      <legend>Submit form</legend>
+      <!-- 'Name' attribute tells you what will apear in an email before 'input' text -->
+      <label for="name">Your Name:</label>
+      <input type="text" name="your_name" value=""><br>
+      <label for="email">Your e-mail:</label>
+      <input type="email" name="your_email" value=""><br>
+      <label for="">Did you read terms and conditions?</label>
+      <input type="checkbox" name="" value=""><br>
+      <label for="">Your Message:</label><br>
+      <textarea name="your_message" rows="8" cols="30"></textarea>
+
+    </fieldset>
+    <input type="submit" name="" value="Submit!">
+  </form>
+
+  <hr size='2'>
+  <a href="index.html">Go back to main page</a>
+</body>
